@@ -1,0 +1,938 @@
+
+[
+   {
+    "id": 1,
+    "name": "Adyar Ananda Bhavan (A2B)",
+    "location": "Chennai",
+    "ratings": 4.3,
+    "address": "Adyar",
+    "products": [
+      {
+        "name": "Idli",
+        "category": "Breakfast",
+        "price": 40,
+        "description": "Soft steamed rice cakes served with chutney and sambar."
+      },
+      {
+        "name": "Dosa",
+        "category": "Breakfast",
+        "price": 50,
+        "description": "Crispy rice and lentil crepe served with chutney and sambar."
+      },
+      {
+        "name": "Veg Biryani",
+        "category": "Lunch/Dinner",
+        "price": 120,
+        "description": "Aromatic basmati rice cooked with mixed vegetables and spices."
+      },
+      {
+        "name": "Gulab Jamun",
+        "category": "Dessert",
+        "price": 40,
+        "description": "Deep-fried milk-based sweets soaked in sugar syrup."
+      },
+      {
+        "name": "Rasgulla",
+        "category": "Dessert",
+        "price": 40,
+        "description": "Soft and spongy cheese balls soaked in light sugar syrup."
+      }
+    ],
+    "cuisines": [
+      "South Indian",
+      "Desserts"
+    ]
+  },
+
+  {
+    "id": 2,
+    "name": "Writer's Cafe",
+    "location": "Chennai",
+    "ratings": 4.2,
+    "address": "Royapettah",
+    "products": [
+      {
+        "name": "Espresso",
+        "category": "Beverages",
+        "price": 80,
+        "description": "Strong and bold espresso shot."
+      },
+      {
+        "name": "Cappuccino",
+        "category": "Beverages",
+        "price": 120,
+        "description": "Rich and foamy cappuccino made with espresso and steamed milk."
+      },
+      {
+        "name": "Cheesecake",
+        "category": "Desserts",
+        "price": 180,
+        "description": "Classic cheesecake with a graham cracker crust."
+      },
+      {
+        "name": "Pasta Alfredo",
+        "category": "Main Course",
+        "price": 220,
+        "description": "Creamy Alfredo pasta with a choice of penne or fettuccine."
+      },
+      {
+        "name": "Margherita Pizza",
+        "category": "Main Course",
+        "price": 250,
+        "description": "Classic Margherita pizza with fresh tomatoes, mozzarella, and basil."
+      },
+      {
+        "name": "Garlic Bread",
+        "category": "Appetizers",
+        "price": 80,
+        "description": "Toasted bread with a garlic butter spread."
+      }
+    ],
+    "cuisines": [
+      "Cafe",
+      "Italian",
+      "Desserts"
+    ]
+  },
+
+  {
+    "name": "SS Hyderabad",
+    "location": "Chennai",
+    "ratings": 4,
+    "address": "Perambur",
+    "products": [
+      {
+        "name": "Mutton Biryani",
+        "category": "Main Course",
+        "price": 250,
+        "description": "Rich and spicy mutton biryani made with basmati rice and traditional spices."
+      },
+      {
+        "name": "Chicken 65",
+        "category": "Appetizers",
+        "price": 150,
+        "description": "Spicy and crispy fried chicken pieces served with a side of onions and lemon."
+      },
+      {
+        "name": "Naan",
+        "category": "Breads",
+        "price": 30,
+        "description": "Soft and fluffy Indian flatbread baked in a tandoor."
+      },
+      {
+        "name": "Tandoori Chicken",
+        "category": "Main Course",
+        "price": 220,
+        "description": "Marinated chicken cooked in a tandoor oven, served with mint chutney."
+      },
+      {
+        "name": "Falooda",
+        "category": "Desserts",
+        "price": 100,
+        "description": "A cold dessert made with vermicelli, jelly, basil seeds, and rose-flavored milk."
+      },
+      {
+        "name": "Butter Chicken",
+        "category": "Main Course",
+        "price": 200,
+        "description": "Chicken cooked in a mild and creamy tomato-based gravy with butter."
+      }
+    ],
+    "cuisines": [
+      "Hyderabadi",
+      "North Indian",
+      "Desserts"
+    ]
+  },
+
+  {
+    "name": "Chai Waale",
+    "location": "Chennai",
+    "ratings": 3.9,
+    "address": "Anna Nagar",
+    "products": [
+      {
+        "name": "Masala Chai",
+        "category": "Beverages",
+        "price": 50,
+        "description": "Traditional Indian spiced tea brewed with milk and aromatic spices."
+      },
+      {
+        "name": "Ginger Chai",
+        "category": "Beverages",
+        "price": 50,
+        "description": "Refreshing tea infused with fresh ginger for a spicy kick."
+      },
+      {
+        "name": "Samosa",
+        "category": "Snacks",
+        "price": 40,
+        "description": "Crispy pastry filled with spicy potato filling."
+      },
+      {
+        "name": "Vada Pav",
+        "category": "Snacks",
+        "price": 50,
+        "description": "Spicy potato fritter sandwiched in a bun with chutneys."
+      },
+      {
+        "name": "Paneer Tikka Sandwich",
+        "category": "Snacks",
+        "price": 80,
+        "description": "Grilled sandwich with spiced paneer filling."
+      },
+      {
+        "name": "Chocolate Chai",
+        "category": "Beverages",
+        "price": 60,
+        "description": "Delicious chai infused with a hint of chocolate."
+      }
+    ],
+    "cuisines": [
+      "Beverages",
+      "Snacks"
+    ]
+  },
+
+  {
+    "name": "Domino's Pizza",
+    "location": "Mumbai",
+    "ratings": 4.5,
+    "address": "St Anthony's Road",
+    "products": [
+      {
+        "name": "Margherita Pizza",
+        "category": "Pizzas",
+        "price": 199,
+        "description": "Classic Margherita pizza with 100% real mozzarella cheese."
+      },
+      {
+        "name": "Pepperoni Pizza",
+        "category": "Pizzas",
+        "price": 299,
+        "description": "Delicious pizza topped with pepperoni slices and mozzarella cheese."
+      },
+      {
+        "name": "Chicken Dominator Pizza",
+        "category": "Pizzas",
+        "price": 399,
+        "description": "Topped with a variety of chicken chunks, including grilled chicken and chicken tikka."
+      },
+      {
+        "name": "Stuffed Garlic Bread",
+        "category": "Sides",
+        "price": 159,
+        "description": "Garlic bread stuffed with gooey mozzarella cheese and corn."
+      },
+      {
+        "name": "Choco Lava Cake",
+        "category": "Desserts",
+        "price": 99,
+        "description": "Warm chocolate cake with a molten chocolate center."
+      },
+      {
+        "name": "Coke",
+        "category": "Beverages",
+        "price": 60,
+        "description": "Refreshing Coca-Cola soft drink."
+      }
+    ],
+    "cuisines": [
+      "Italian",
+      "Pizzas",
+      "Desserts",
+      "Beverages"
+    ]
+  },
+
+  {
+    "name": "The Great Punjab",
+    "location": "Mumbai",
+    "ratings": 3.5,
+    "address": "Tilak Nagar",
+    "products": [
+      {
+        "name": "Paneer Tikka",
+        "category": "Appetizers",
+        "price": 250,
+        "description": "Marinated paneer cubes grilled to perfection."
+      },
+      {
+        "name": "Tandoori Chicken",
+        "category": "Appetizers",
+        "price": 400,
+        "description": "Spiced and marinated chicken cooked in a traditional clay oven."
+      },
+      {
+        "name": "Dal Makhani",
+        "category": "Main Course",
+        "price": 200,
+        "description": "Slow-cooked black lentils in a rich and creamy sauce."
+      },
+      {
+        "name": "Naan",
+        "category": "Breads",
+        "price": 50,
+        "description": "Soft and fluffy Indian flatbread baked in a tandoor."
+      },
+      {
+        "name": "Rasgulla",
+        "category": "Desserts",
+        "price": 90,
+        "description": "Soft and spongy cheese balls soaked in light sugar syrup."
+      },
+      {
+        "name": "Lassi",
+        "category": "Beverages",
+        "price": 100,
+        "description": "Refreshing yogurt-based drink, available in sweet and salted variations."
+      }
+    ],
+    "cuisines": [
+      "North Indian",
+      "Punjabi",
+      "Desserts",
+      "Beverages"
+    ]
+  },
+
+  {
+    "name": "The Cake House",
+    "location": "Mumbai",
+    "ratings": 4.5,
+    "address": "Kokan Nagar",
+    "products": [
+      {
+        "name": "Black Forest Cake",
+        "category": "Cakes",
+        "price": 450,
+        "description": "Layered chocolate cake with cherries and whipped cream."
+      },
+      {
+        "name": "Vanilla Cupcake",
+        "category": "Cupcakes",
+        "price": 60,
+        "description": "Light and fluffy vanilla cupcake topped with buttercream frosting."
+      },
+      {
+        "name": "Fruit Tart",
+        "category": "Tarts",
+        "price": 90,
+        "description": "Fresh fruit tart with a creamy custard filling."
+      },
+      {
+        "name": "Chocolate Mousse",
+        "category": "Desserts",
+        "price": 100,
+        "description": "Light and airy chocolate mousse topped with chocolate shavings."
+      },
+      {
+        "name": "Macarons",
+        "category": "Cookies",
+        "price": 150,
+        "description": "Delicate French macarons available in various flavors."
+      },
+      {
+        "name": "Cappuccino",
+        "category": "Beverages",
+        "price": 120,
+        "description": "Rich and foamy cappuccino made with espresso and steamed milk."
+      }
+    ],
+    "cuisines": [
+      "Bakery",
+      "Desserts",
+      "Beverages"
+    ]
+  },
+
+  {
+    "name": "Banana Leaf",
+    "location": "Mumbai",
+    "ratings": 3.2,
+    "address": "Kokan Nagar",
+    "products": [
+      {
+        "name": "Idli",
+        "category": "Breakfast",
+        "price": 50,
+        "description": "Steamed rice cakes served with coconut chutney and sambar."
+      },
+      {
+        "name": "Medu Vada",
+        "category": "Snacks",
+        "price": 60,
+        "description": "Deep-fried lentil doughnuts served with coconut chutney and sambar."
+      },
+      {
+        "name": "Malabar Paratha",
+        "category": "Breads",
+        "price": 40,
+        "description": "Layered flaky flatbread made with refined flour."
+      },
+      {
+        "name": "Appam with Stew",
+        "category": "Main Course",
+        "price": 120,
+        "description": "Soft and fluffy rice pancakes served with vegetable stew."
+      },
+      {
+        "name": "Payasam",
+        "category": "Desserts",
+        "price": 70,
+        "description": "Sweet South Indian dessert made with milk, rice, and jaggery."
+      },
+      {
+        "name": "Filter Coffee",
+        "category": "Beverages",
+        "price": 40,
+        "description": "Traditional South Indian coffee brewed using a metal filter."
+      }
+    ],
+    "cuisines": [
+      "South Indian",
+      "Indian",
+      "Vegetarian",
+      "Desserts",
+      "Beverages"
+    ]
+  },
+
+  {
+    "name": "KFC",
+    "location": "Kolkata",
+    "ratings": 4,
+    "address": "Baranagar",
+    "products": [
+      {
+        "name": "Hot & Crispy Chicken",
+        "category": "Chicken",
+        "price": 220,
+        "description": "Crispy fried chicken coated with a spicy batter."
+      },
+      {
+        "name": "Chicken Popcorn",
+        "category": "Chicken",
+        "price": 150,
+        "description": "Bite-sized pieces of breaded and fried chicken."
+      },
+      {
+        "name": "Zinger Burger",
+        "category": "Burgers",
+        "price": 200,
+        "description": "Spicy fried chicken fillet with lettuce and mayonnaise in a soft bun."
+      },
+      {
+        "name": "French Fries",
+        "category": "Sides",
+        "price": 100,
+        "description": "Crispy potato fries seasoned with salt."
+      },
+      {
+        "name": "Chocolate Cake",
+        "category": "Desserts",
+        "price": 120,
+        "description": "Moist chocolate cake with chocolate frosting."
+      },
+      {
+        "name": "Soft Serve Ice Cream",
+        "category": "Desserts",
+        "price": 50,
+        "description": "Creamy soft serve vanilla ice cream."
+      }
+    ],
+    "cuisines": [
+      "Fast Food",
+      "American",
+      "Chicken",
+      "Burgers",
+      "Desserts"
+    ]
+  },
+
+  {
+    "name": "Dey Sweets",
+    "location": "Kolkata",
+    "ratings": 4.1,
+    "address": "Dharmatala",
+    "products": [
+      {
+        "name": "Rasgulla",
+        "category": "Sweets",
+        "price": 10,
+        "description": "Soft and spongy cottage cheese balls soaked in sugar syrup."
+      },
+      {
+        "name": "Mishti Doi",
+        "category": "Sweets",
+        "price": 20,
+        "description": "Sweetened yogurt delicacy."
+      },
+      {
+        "name": "Kacha Golla",
+        "category": "Sweets",
+        "price": 12,
+        "description": "Soft and creamy Bengali sweet made from fresh cottage cheese."
+      },
+      {
+        "name": "Cham Cham",
+        "category": "Sweets",
+        "price": 18,
+        "description": "Milk-based sweet delicacy flavored with saffron."
+      },
+      {
+        "name": "Pantua",
+        "category": "Sweets",
+        "price": 14,
+        "description": "Similar to Gulab Jamun but with a different texture and taste."
+      },
+      {
+        "name": "Kheer Kadam",
+        "category": "Sweets",
+        "price": 25,
+        "description": "Sweet made from mini rasgullas coated with khoya and coconut."
+      },
+      {
+        "name": "Chhanar Jilipi",
+        "category": "Sweets",
+        "price": 16,
+        "description": "Twisted sweet made from paneer and soaked in sugar syrup."
+      },
+      {
+        "name": "Nolen Gurer Sandesh",
+        "category": "Sweets",
+        "price": 25,
+        "description": "Sandesh flavored with date palm jaggery, a seasonal delicacy."
+      }
+    ],
+    "cuisines": [
+      "Bengali Sweets",
+      "Indian Sweets"
+    ]
+  },
+
+  {
+    "name": "Krishna Food",
+    "location": "Kolkata",
+    "ratings": 4.3,
+    "address": "Jodhpur Park",
+    "products": [
+      {
+        "name": "Masala Dosa",
+        "category": "South Indian",
+        "price": 80,
+        "description": "Crispy rice and lentil crepe filled with spiced potatoes."
+      },
+      {
+        "name": "Idli Sambhar",
+        "category": "South Indian",
+        "price": 60,
+        "description": "Steamed rice cakes served with lentil soup and chutney."
+      },
+      {
+        "name": "Chole Bhature",
+        "category": "North Indian",
+        "price": 100,
+        "description": "Spicy chickpeas served with deep-fried bread."
+      },
+      {
+        "name": "Paneer Tikka Masala",
+        "category": "North Indian",
+        "price": 150,
+        "description": "Paneer cubes cooked in a spicy tomato-based gravy."
+      },
+      {
+        "name": "Vegetable Pulao",
+        "category": "Rice Dishes",
+        "price": 120,
+        "description": "Fragrant basmati rice cooked with mixed vegetables and spices."
+      },
+      {
+        "name": "Chicken Biryani",
+        "category": "Rice Dishes",
+        "price": 180,
+        "description": "Aromatic basmati rice cooked with tender chicken pieces and spices."
+      },
+      {
+        "name": "Dal Fry",
+        "category": "Dal",
+        "price": 70,
+        "description": "Tempered yellow lentils cooked to perfection."
+      },
+      {
+        "name": "Palak Paneer",
+        "category": "Vegetarian",
+        "price": 140,
+        "description": "Paneer cubes cooked in a spinach gravy."
+      },
+      {
+        "name": "Rajma Chawal",
+        "category": "North Indian",
+        "price": 120,
+        "description": "Kidney beans cooked in a spicy tomato-based gravy, served with rice."
+      },
+      {
+        "name": "Gulab Jamun",
+        "category": "Desserts",
+        "price": 40,
+        "description": "Deep-fried milk-based sweets soaked in sugar syrup."
+      }
+    ],
+    "cuisines": [
+      "South Indian",
+      "North Indian"
+    ]
+  },
+
+  {
+    "name": "Lazeez Biriyani",
+    "location": "Kolkata",
+    "ratings": 4.4,
+    "address": "Lake Gardens",
+    "products": [
+      {
+        "name": "Chicken Biriyani",
+        "category": "Biriyani",
+        "price": 180,
+        "description": "Flavorful basmati rice cooked with tender chicken pieces and aromatic spices."
+      },
+      {
+        "name": "Mutton Biriyani",
+        "category": "Biriyani",
+        "price": 220,
+        "description": "Rich and spicy mutton biriyani made with basmati rice and traditional spices."
+      },
+      {
+        "name": "Veg Biriyani",
+        "category": "Biriyani",
+        "price": 160,
+        "description": "Aromatic basmati rice cooked with mixed vegetables and fragrant spices."
+      },
+      {
+        "name": "Egg Biriyani",
+        "category": "Biriyani",
+        "price": 140,
+        "description": "Biriyani made with flavorful basmati rice and boiled eggs."
+      },
+      {
+        "name": "Chicken Tikka",
+        "category": "Appetizers",
+        "price": 150,
+        "description": "Spicy and grilled chicken tikka pieces."
+      },
+      {
+        "name": "Paneer Butter Masala",
+        "category": "Main Course",
+        "price": 180,
+        "description": "Paneer cubes cooked in a rich and creamy tomato-based gravy."
+      },
+      {
+        "name": "Mutton Korma",
+        "category": "Main Course",
+        "price": 250,
+        "description": "Tender mutton cooked in a flavorful yogurt and spice-based gravy."
+      },
+      {
+        "name": "Raita",
+        "category": "Side Dish",
+        "price": 50,
+        "description": "Yogurt mixed with chopped vegetables and spices."
+      },
+      {
+        "name": "Gulab Jamun",
+        "category": "Desserts",
+        "price": 40,
+        "description": "Deep-fried milk-based sweets soaked in sugar syrup."
+      }
+    ],
+    "cuisines": [
+      "Biryani",
+      "North Indian",
+      "Mughlai"
+    ]
+  },
+
+  {
+    "name": "Burger King",
+    "location": "Delhi",
+    "ratings": 4.3,
+    "address": "Shastri Nagar",
+    "products": [
+      {
+        "name": "Whopper",
+        "category": "Burgers",
+        "price": 180,
+        "description": "Flame-grilled beef patty topped with lettuce, tomatoes, onions, pickles, and mayonnaise, served in a sesame seed bun."
+      },
+      {
+        "name": "Chicken Royale",
+        "category": "Burgers",
+        "price": 160,
+        "description": "Crispy chicken fillet topped with lettuce, tomatoes, onions, and mayonnaise, served in a sesame seed bun."
+      },
+      {
+        "name": "Veggie Whopper",
+        "category": "Burgers",
+        "price": 150,
+        "description": "Flame-grilled vegetarian patty topped with lettuce, tomatoes, onions, pickles, and mayonnaise, served in a sesame seed bun."
+      },
+      {
+        "name": "Chicken Fries",
+        "category": "Chicken",
+        "price": 120,
+        "description": "Breaded and fried chicken strips, perfect for dipping."
+      },
+      {
+        "name": "King Jr. Meal",
+        "category": "Kids' Meals",
+        "price": 180,
+        "description": "Choice of Whopper Jr. or Chicken Nuggets, served with fries and a drink."
+      },
+      {
+        "name": "Crispy Veg Supreme",
+        "category": "Burgers",
+        "price": 140,
+        "description": "Crispy veg patty topped with fresh lettuce, creamy mayo, and cheese, served in a sesame seed bun."
+      },
+      {
+        "name": "Onion Rings",
+        "category": "Sides",
+        "price": 80,
+        "description": "Crispy breaded onion rings."
+      },
+      {
+        "name": "Chocolate Sundae",
+        "category": "Desserts",
+        "price": 70,
+        "description": "Creamy vanilla soft serve topped with chocolate sauce."
+      },
+      {
+        "name": "Soft Serve Cone",
+        "category": "Desserts",
+        "price": 50,
+        "description": "Classic soft serve ice cream in a crispy cone."
+      }
+    ],
+    "cuisines": [
+      "Burgers",
+      "Fast Food",
+      "American"
+    ]
+  },
+
+  {
+    "name": "Saravana Bhavan",
+    "location": "Delhi",
+    "ratings": 3.9,
+    "address": "Wazirabad",
+    "products": [
+      {
+        "name": "Mini Tiffin",
+        "category": "Breakfast",
+        "price": 180,
+        "description": "Assorted South Indian breakfast items like idli, vada, pongal, and kesari."
+      },
+      {
+        "name": "Masala Dosa",
+        "category": "Dosa Varieties",
+        "price": 150,
+        "description": "Crispy crepe made from fermented rice and lentil batter, filled with spiced potato filling."
+      },
+      {
+        "name": "Rava Dosa",
+        "category": "Dosa Varieties",
+        "price": 160,
+        "description": "Thin and crispy crepe made from semolina and rice flour."
+      },
+      {
+        "name": "Poori Masala",
+        "category": "Main Course",
+        "price": 140,
+        "description": "Deep-fried bread served with spiced potato curry."
+      },
+      {
+        "name": "Chole Bhature",
+        "category": "Main Course",
+        "price": 180,
+        "description": "Fluffy deep-fried bread served with spicy chickpea curry."
+      },
+      {
+        "name": "Paneer Butter Masala",
+        "category": "North Indian",
+        "price": 220,
+        "description": "Soft paneer cubes cooked in a rich tomato-based gravy."
+      },
+      {
+        "name": "Palak Paneer",
+        "category": "North Indian",
+        "price": 200,
+        "description": "Paneer cubes cooked in a creamy spinach gravy."
+      },
+      {
+        "name": "Thali Meals",
+        "category": "Meals",
+        "price": 250,
+        "description": "Traditional South Indian meal served on a banana leaf with rice, sambar, rasam, vegetable curries, yogurt, and sweets."
+      },
+      {
+        "name": "Jigarthanda",
+        "category": "Beverages",
+        "price": 100,
+        "description": "Refreshing South Indian drink made with milk, almond gum, sarsaparilla root syrup, and ice cream."
+      },
+      {
+        "name": "Filter Coffee",
+        "category": "Beverages",
+        "price": 80,
+        "description": "Traditional South Indian coffee brewed with milk and served frothy."
+      }
+    ],
+    "cuisines": [
+      "South Indian",
+      "North Indian",
+      "Vegetarian"
+    ]
+  },
+
+  {
+    "name": "Behrouz Biryani",
+    "location": "Delhi",
+    "ratings": 4.6,
+    "address": "Khanpur",
+    "products": [
+      {
+        "name": "Behrouz Murgh Biryani",
+        "category": "Biryani",
+        "price": 300,
+        "description": "Fragrant basmati rice cooked with succulent chicken pieces in Behrouz's special blend of spices."
+      },
+      {
+        "name": "Subz-e-Biryani",
+        "category": "Biryani",
+        "price": 250,
+        "description": "Flavorful basmati rice cooked with a variety of fresh vegetables and aromatic spices."
+      },
+      {
+        "name": "Dum Gosht Biryani",
+        "category": "Biryani",
+        "price": 350,
+        "description": "Tender mutton pieces slow-cooked with basmati rice and Behrouz's secret spices."
+      },
+      {
+        "name": "Paneer Subz Biryani",
+        "category": "Biryani",
+        "price": 280,
+        "description": "Aromatic basmati rice cooked with paneer and a medley of vegetables."
+      },
+      {
+        "name": "Murgh Kefta Biryani",
+        "category": "Biryani",
+        "price": 320,
+        "description": "Chicken kefta (minced chicken) cooked with basmati rice and Behrouz's signature spices."
+      },
+      {
+        "name": "Gulab Jamun",
+        "category": "Desserts",
+        "price": 80,
+        "description": "Deep-fried milk-based sweets soaked in sugar syrup."
+      },
+      {
+        "name": "Phirni",
+        "category": "Desserts",
+        "price": 100,
+        "description": "Creamy rice pudding flavored with saffron and cardamom."
+      },
+      {
+        "name": "Mutton Kebab",
+        "category": "Appetizers",
+        "price": 180,
+        "description": "Juicy mutton kebabs grilled to perfection."
+      },
+      {
+        "name": "Chicken Lababdar",
+        "category": "Main Course",
+        "price": 280,
+        "description": "Boneless chicken cooked in a rich and creamy tomato-based gravy."
+      }
+    ],
+    "cuisines": [
+      "Biryani",
+      "Mughlai",
+      "North Indian"
+    ]
+  },
+
+  {
+    "name": "Baskin-Robbins",
+    "location": "Delhi",
+    "ratings": 4.7,
+    "address": "Sarojini Nagar",
+    "products": [
+      {
+        "name": "Chocolate Chip Ice Cream",
+        "category": "Ice Cream",
+        "price": 150,
+        "description": "Creamy vanilla ice cream with chocolate chips."
+      },
+      {
+        "name": "Mint Chocolate Chip Ice Cream",
+        "category": "Ice Cream",
+        "price": 160,
+        "description": "Refreshing mint ice cream with chocolate chips."
+      },
+      {
+        "name": "Cookies 'n Cream Ice Cream",
+        "category": "Ice Cream",
+        "price": 170,
+        "description": "Vanilla ice cream with chocolate sandwich cookies."
+      },
+      {
+        "name": "Rainbow Sherbet",
+        "category": "Sherbet",
+        "price": 140,
+        "description": "Colorful blend of fruit-flavored sherbets."
+      },
+      {
+        "name": "Chocolate Fudge Brownie Ice Cream",
+        "category": "Ice Cream",
+        "price": 180,
+        "description": "Rich chocolate ice cream with chunks of fudge brownie."
+      },
+      {
+        "name": "Pistachio Almond Ice Cream",
+        "category": "Ice Cream",
+        "price": 160,
+        "description": "Smooth pistachio ice cream with roasted almonds."
+      },
+      {
+        "name": "Jamoca Almond Fudge Ice Cream",
+        "category": "Ice Cream",
+        "price": 190,
+        "description": "Coffee-flavored ice cream with roasted almonds and a chocolate fudge ribbon."
+      },
+      {
+        "name": "Chocolate Milkshake",
+        "category": "Beverages",
+        "price": 120,
+        "description": "Rich and creamy chocolate milkshake."
+      },
+      {
+        "name": "Vanilla Cone",
+        "category": "Desserts",
+        "price": 80,
+        "description": "Classic vanilla soft serve in a crispy cone."
+      },
+      {
+        "name": "Waffle Sundae",
+        "category": "Desserts",
+        "price": 200,
+        "description": "Warm waffle topped with a scoop of ice cream, chocolate sauce, and whipped cream."
+      }
+    ],
+    "cuisines": [
+      "Ice Cream",
+      "Desserts",
+      "Beverages"
+    ]
+  }
+  ]
